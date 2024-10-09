@@ -8,6 +8,30 @@ img {
     width: 100%;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+/* button style */
+/* .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 5px;
+}
+
+.btn-primary {
+    font-size: 15px;
+    background-color: lightskyblue;
+} */
+
 
 /* COMMON */
 /* Layout */
@@ -50,8 +74,21 @@ img {
 /* body */
 
 .header {
-    background-color: #add8e6;
-    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px
+    
+    /* debug */
+    /* background-color: #add8e6; */
+    /* height: 60px; */
+}
+
+
+.header ul{
+    gap: 30px;
+    font-size: 0.8rem;
+    display: flex;
 }
 
 .hero {}
