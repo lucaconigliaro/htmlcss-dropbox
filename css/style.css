@@ -38,6 +38,14 @@ img {
     background-color: lightseagreen;
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 10px;
+}
+
+
 
 /* body */
 
@@ -46,16 +54,12 @@ img {
     height: 60px;
 }
 
-.hero {
-}
+.hero {}
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    row-gap: 10px;
 
-}
+
+/* business plan */
+
 .col-business-plan {
     width: calc(95%/3);
 
@@ -73,7 +77,7 @@ img {
 
 .horizontal-70 {
     width: 70%;
-    
+
     /* debug */
     border: 1px solid lightgoldenrodyellow;
 }
@@ -83,4 +87,49 @@ img {
 
     /* debug */
     border: 1px solid lightgoldenrodyellow;
+}
+
+
+
+/* partner dropxbox */
+.partner-box-55 {
+    width: 60%;
+
+    /* debug */
+    min-height: 400px;
+    background-color: lightgray;
+    border: 1px solid lightgoldenrodyellow;
+}
+
+.partner-box-35 {
+    width: 40%;
+
+    /* debug */
+    min-height: 400px;
+    background-color: lightgray;
+    border: 1px solid lightgoldenrodyellow;
+}
+
+
+
+/* card */
+.card {
+    width: calc(95%/3);
+
+    /* dubug */
+    background-color: lightgray;
+    min-height: 100px;
+}
+
+.col-business-70 {
+    margin-top: 30px;
+}
+
+.business-70 {
+    width: 70%;
+    padding: 30px;
+
+    /* debug */
+    background-color: lightgray;
+    min-height: 100px;
 }
