@@ -133,3 +133,22 @@ img {
     background-color: lightgray;
     min-height: 100px;
 }
+
+
+
+/* footer */
+.footer {
+    background-color: lightpink;
+}
+
+.col-20 {
+    width: calc(95%/5);
+
+    /* debug */
+    background-color: lightgray;
+    min-height: 300px;
+}
+
+hr {
+    width: 18%;
+}
