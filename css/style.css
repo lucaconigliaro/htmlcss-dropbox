@@ -17,27 +17,47 @@ ul {
     list-style: none;
 }
 
+h1 {
+    font-size: 3rem;
+}
+
+
 
 
 /* button style */
-/* .buttons {
-    display: flex;
+.buttons {
+    display: inline-block;
     justify-content: center;
-    gap: 20px;
-    padding: 5px;
-}
+    padding: 1px 5px;
+    line-height: 20px;
+} 
 
 .btn-primary {
-    font-size: 15px;
-    background-color: lightskyblue;
+    font-size: 13px;
+    background-color: rgb(0 97 254);
+    color: white;
 } */
 
 
 /* COMMON */
+/* Typography */
+
+body {
+    font-family: sans-serif;
+}
+
+.arrow {
+    margin-top: 60px;
+    font-size: 40px;
+    transform: rotate(90deg);
+    display: inline-block;
+}
+
+
 /* Layout */
 
 .section {
-    padding: 30px;
+    padding: 30px 0px 0px; 
 }
 
 .container {
@@ -46,14 +66,14 @@ ul {
     margin: 0 auto;
 
     /* debug */
-    border: 1px solid black;
+    /* border: 1px solid black; */
     min-height: 300px;
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
 }
 
 .small-container {
-    width: 60%;
-    max-width: 1100px;
+    width: 70%;
+    max-width: 900px;
     margin: 0 auto;
 
     /* debug */
@@ -69,6 +89,17 @@ ul {
     row-gap: 10px;
 }
 
+/* Utilities  */
+.justify-content {
+    justify-content: space-between;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
 
 
 /* body */
@@ -77,21 +108,29 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px
+    padding: 10px
     
     /* debug */
     /* background-color: #add8e6; */
     /* height: 60px; */
 }
 
-
 .header ul{
-    gap: 30px;
+    gap: 20px;
     font-size: 0.8rem;
     display: flex;
 }
 
-.hero {}
+
+
+/* hero */
+.hero {
+    background-color: rgb(180 208 230);
+}
+
+.hero-mt {
+    margin-top: 40px;
+}
 
 
 
@@ -129,22 +168,23 @@ ul {
 
 
 /* partner dropxbox */
-.partner-box-55 {
-    width: 60%;
+.partner-box-70 {
+    width: 70%;
 
     /* debug */
     min-height: 400px;
-    background-color: lightgray;
-    border: 1px solid lightgoldenrodyellow;
+    /* background-color: lightgray; */
+    /* border: 1px solid lightgoldenrodyellow; */
 }
 
-.partner-box-35 {
-    width: 40%;
+.partner-box-30 {
+    width: 30%;
+    margin-bottom: 20px;
 
     /* debug */
     min-height: 400px;
-    background-color: lightgray;
-    border: 1px solid lightgoldenrodyellow;
+    /* background-color: lightgray; */
+    /* border: 1px solid lightgoldenrodyellow; */
 }
 
 
