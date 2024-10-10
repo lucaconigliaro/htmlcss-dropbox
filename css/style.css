@@ -280,26 +280,28 @@ h5 {
 }
 
 
-/* card */
+/* Operations */
+
 .card {
     width: calc(95%/3);
 
     /* dubug */
-    background-color: lightgray;
-    min-height: 100px;
+    /* background-color: lightgray; */
+    /* min-height: 100px; */
 }
 
 .col-business-70 {
     margin-top: 30px;
 }
 
-.business-70 {
+
+/* Client */
+.client-70 {
     width: 70%;
-    padding: 30px;
 
     /* debug */
-    background-color: lightgray;
-    min-height: 100px;
+    /* background-color: lightgray; */
+    /* min-height: 100px; */
 }
 
 
