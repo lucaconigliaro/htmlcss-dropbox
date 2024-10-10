@@ -157,6 +157,9 @@ h5 {
     /* height: 60px; */
 }
 
+.logo {
+    width: 70px;
+}
 .header ul{
     gap: 20px;
     font-size: 0.8rem;
@@ -211,24 +214,27 @@ h5 {
     display: flex;
     justify-content: center;
 }
+
+
 .horizontal {
     width: 100%;
-    min-height: 300px;
+    min-height: 200px;
+    /* min-height: 300px; */
+}
+
+.horizontal-100 {
     display: flex;
+
+    /* debug */
+    /* border: 1px solid lightgoldenrodyellow; */
 }
 
 .horizontal-70 {
     width: 70%;
-
-    /* debug */
-    border: 1px solid lightgoldenrodyellow;
 }
 
 .horizontal-30 {
     width: 30%;
-
-    /* debug */
-    border: 1px solid lightgoldenrodyellow;
 }
 
 
