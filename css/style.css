@@ -17,13 +17,6 @@ ul {
     list-style: none;
 }
 
-h1 {
-    font-size: 3rem;
-}
-
-h2 {
-    font-size: 2rem;
-}
 
 
 
@@ -33,13 +26,20 @@ h2 {
     justify-content: center;
     padding: 1px 5px;
     line-height: 20px;
+    text-decoration: none;
 } 
 
 .btn-primary {
     font-size: 13px;
     background-color: rgb(0 97 254);
     color: white;
-} */
+} 
+
+.btn-white {
+    font-size: 13px;
+    border: 1px solid black;
+    color: black;
+}
 
 
 /* COMMON */
@@ -58,11 +58,22 @@ body {
 
 .rem-08 {
     font-size: 0.8rem;
-    
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
 }
 
 h5 {
     font-size: 1rem;
+}
+
+.partner-p {
+    font-size: 0.9rem;
 }
 
 /* Layout */
@@ -160,6 +171,7 @@ h5 {
 .logo {
     width: 70px;
 }
+
 .header ul{
     gap: 20px;
     font-size: 0.8rem;
@@ -215,7 +227,6 @@ h5 {
     justify-content: center;
 }
 
-
 .horizontal {
     width: 100%;
     min-height: 200px;
@@ -259,6 +270,14 @@ h5 {
     /* border: 1px solid lightgoldenrodyellow; */
 }
 
+.partner-box {
+    display: flex;
+    padding: 100px 0px 50px;
+}
+
+.partner-img {
+    width: 500px;
+}
 
 
 /* card */
