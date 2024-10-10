@@ -8,7 +8,7 @@ img {
     width: 100%;
 }
 
-a {
+.header-link {
     text-decoration: none;
     color: inherit;
 }
@@ -21,6 +21,9 @@ h1 {
     font-size: 3rem;
 }
 
+h2 {
+    font-size: 2rem;
+}
 
 
 
@@ -53,6 +56,14 @@ body {
     display: inline-block;
 }
 
+.rem-08 {
+    font-size: 0.8rem;
+    
+}
+
+h5 {
+    font-size: 1rem;
+}
 
 /* Layout */
 
@@ -79,7 +90,7 @@ body {
     /* debug */
     /* border: 1px solid blue; */
     min-height: 300px;
-    background-color: lightseagreen;
+    /* background-color: lightseagreen; */
 }
 
 .row {
@@ -94,14 +105,45 @@ body {
     justify-content: space-between;
 }
 
+
+.mt-40 {
+    margin-top: 40px;
+}
 .mt-20 {
     margin-top: 20px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
 }
 .mb-20 {
     margin-bottom: 20px;
 }
 
+.mb-10 {
+    margin-bottom: 10px;
+}
 
+.hr-business {
+    width: 100%;
+}
+
+.hr-business-low {
+    width: 20%;
+}
+
+.grey {
+    color: lightgray;
+}
+
+.business-list {
+    gap: 10px;
+}
+
+.fa-check {
+    color: hsl(213.57deg 99.13% 55.1%);
+    font-size: 0.9rem;
+}
 /* body */
 
 .header {
@@ -128,23 +170,47 @@ body {
     background-color: rgb(180 208 230);
 }
 
-.hero-mt {
-    margin-top: 40px;
+
+.hero-plan {
+    border: 2 solid lightgrey;
+    width: 100%;
+    margin-top: 30px;
 }
 
-
-
 /* business plan */
+
+.radio {
+    display: flex;
+    justify-content: baseline;
+    font-size: 0.8rem;
+}
+.radio-btn-year {
+    margin-left: 50px;
+}
 
 .col-business-plan {
     width: calc(95%/3);
 
     /* Debug */
-    /* border: 2px solid blue; */
+    border: 1px solid lightgray;
     min-height: 500px;
-    background-color: lightgray;
+    /* background-color: lightgray; */
 }
 
+.head-business {
+    font-size: 0.8rem;
+    padding: 10px;
+    text-align: center;
+}
+
+.corp-business {
+    padding: 20px;
+}
+
+.link-business {
+    display: flex;
+    justify-content: center;
+}
 .horizontal {
     width: 100%;
     min-height: 300px;
@@ -226,6 +292,3 @@ body {
     min-height: 300px;
 }
 
-hr {
-    width: 18%;
-}
